@@ -1,0 +1,34 @@
+/* Herança
+body{
+    border: blue 2px solid;
+}
+
+.tag_filha{
+    border: red 5px solid;
+}
+*/
+
+/*
+**** Especificidade ****
+*/
+
+/*Mais geral*/
+*{
+    color: blue;
+}
+
+/*Mais específico 3*/
+h2{
+    color: red;
+}
+
+/*Mais específico 2*/
+h2.verde{
+    color: green;
+}
+
+/*Mais espcífico 1*/
+h2#amarelo{
+    color: yellow;
+    background-color: teal;
+}

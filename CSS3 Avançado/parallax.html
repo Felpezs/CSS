@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Parallax</title>
+        <style type="text/css">
+
+            body, html{
+                margin:0;
+                font: 16px "Lato", sans-serif;
+                color:#777;
+                height: 100%;  
+            }
+            .conteudo{
+                color: #777;
+                background-color: white;
+                text-align: justify;
+                padding: 50px 80px;
+            }
+
+            h3{
+                text-transform: uppercase;
+                color: #111;
+                text-align: center;
+            }
+
+            p{
+                margin-bottom: 20px;
+            }
+
+            .caixa1, .caixa2, .caixa3, .caixa4{
+                position: relative;
+                height: 100%;
+                opacity: 0.7;
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+                background-attachment: fixed ;
+            }
+
+            .caixa1{
+                background-image: url(parallax/imagem1.jpg);
+            }
+
+            .caixa2{
+                background-image: url(parallax/imagem2.jpg);
+            }
+
+            .caixa3{
+                background-image: url(parallax/imagem3.jpg);
+            }
+
+            .caixa4{
+                background-image: url(parallax/imagem4.jpg);
+            }
+
+            .conteudo_titulo{
+                position: absolute;
+                left: 0;
+                top: 45%;
+                width: 100%;
+                text-align: center;
+            }
+
+            .conteudo_titulo span.titulo{
+                color: #fff;
+                background-color: #111;
+                padding: 18px;
+                font-size: 25px;
+                letter-spacing: 5px;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="caixa1">
+            <div class="conteudo_titulo">
+                <span class="titulo">PASSEIO DE BALÕES</span>
+            </div>
+        </div>
+        <div class="conteudo">
+            <h3>Parallax</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Aliquid qui et animi unde pariatur deleniti ratione, beatae placeat asperiores inventore eos. 
+                Assumenda asperiores eius saepe explicabo quod, dignissimos facilis fugit!
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                Qui ullam dolore laboriosam, ab voluptate, explicabo quidem debitis illo saepe possimus vel! 
+                Eligendi maiores iusto accusantium, suscipit voluptatum repellat repudiandae sint.
+            </p>
+        </div>
+
+        <div class="caixa2">
+            <div class="conteudo_titulo">
+                <span class="titulo">PEGANDO A ESTRADA</span>
+            </div>
+        </div>
+
+        <div class="conteudo">
+            <h3>Parallax</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Aliquid qui et animi unde pariatur deleniti ratione, beatae placeat asperiores inventore eos. 
+                Assumenda asperiores eius saepe explicabo quod, dignissimos facilis fugit!
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                Qui ullam dolore laboriosam, ab voluptate, explicabo quidem debitis illo saepe possimus vel! 
+                Eligendi maiores iusto accusantium, suscipit voluptatum repellat repudiandae sint.
+            </p>
+        </div>
+
+        <div class="caixa3">
+            <div class="conteudo_titulo">
+                <span class="titulo">PÔR DO SOL</span>
+            </div>
+        </div>
+
+        <div class="caixa4">
+            <div class="conteudo_titulo">
+                <span class="titulo">MONTANHAS</span>
+            </div>
+        </div>
+
+    </body>
+</html>
