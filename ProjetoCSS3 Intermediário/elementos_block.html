@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+
+        <meta charset="UTF-8">
+        <title>Página Principal</title>
+        <style>
+            .borda{
+                border:1px solid red;
+            }
+
+            .borda-inline{
+                border: 1px solid green;
+                display: inline-block;
+            }
+        </style>
+
+    </head>
+
+    <body>
+        <!--Block ocupa toda linha, um abaixo do outro-->
+        <h1 class="borda">Elemento Block</h1>
+        <h1 class="borda">Elemento Block 2</h1>
+
+        <!--Inline Block ocupa espaço do contéudo e fica um do lado do outro. Modifica o display original-->
+        <h1 class="borda-inline">Elemento inline-block</h1>
+        <h1 class="borda-inline">Elemento inline-block 2</h1>
+        <p class="borda-inline">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id, nemo consequuntur! Molestias veritatis delectus ratione, commodi aliquid impedit accusamus cupiditate modi cumque. Modi ipsam deserunt illo necessitatibus tempore distinctio sed!</p>
+        <p class="borda-inline">Não coube</p>
+        
+        <!--Inline ocupa espaço do conteúdo e fica um do lado do outro-->
+        <span class="borda">Elemento inline span</span>
+        <span class="borda">Elemento inline span 2</span>
+    </body>
+
+</html>
